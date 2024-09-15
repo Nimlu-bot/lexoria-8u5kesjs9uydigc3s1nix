@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "lexoria",
+    "slug": "lexoria-8u5kesjs9uydigc3s1nix",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nimlu.lexoria8u5kesjs9uydigc3s1nix"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nimlu.lexoria8u5kesjs9uydigc3s1nix"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "32f02b15-d6c5-4a1c-bcea-f93ceaf2ca66"
+      }
+    },
+    "owner": "nimlu",
+    "updates": {
+      "url": "https://u.expo.dev/32f02b15-d6c5-4a1c-bcea-f93ceaf2ca66"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
